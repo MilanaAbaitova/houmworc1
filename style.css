@@ -4,7 +4,7 @@
 }
 
 
-.top {
+.header {
     max-width: 1440px;
     height: 1024px;
 
@@ -14,11 +14,11 @@
     background-size: cover;
 }
 
-.block-text {
+.block {
     margin-left: 120px;  
 }
 
-.top-text {
+.block__text{
 
     width: 788.778px;
     color: #FFF;
@@ -30,7 +30,7 @@
     padding-bottom: 32px;
 }
 
-.big-text {
+.block__big-text {
     color: white;
     display: flex;
     width: 747px;
@@ -45,14 +45,14 @@
 
 }
 
-.text {
+.block__special-text {
     height: 64px;
     width: 481px;
     
 }
 
 
-.red-button {
+.block__red-button {
     border-radius: 20px;
     
     width: 234.063px;
@@ -65,7 +65,7 @@
     color: #FFF;
     font-family: "Montserrat";
 }
-.red-button:hover {
+.block__red-button:hover {
     background: #fbfbfb;
     color: #9C0332;
     
