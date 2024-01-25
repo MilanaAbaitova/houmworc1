@@ -52,7 +52,7 @@
 }
 
 
-.block__red-button {
+.block__button {
     border-radius: 20px;
     
     width: 234.063px;
@@ -65,7 +65,7 @@
     color: #FFF;
     font-family: "Montserrat";
 }
-.block__red-button:hover {
+.block__button:hover {
     background: #fbfbfb;
     color: #9C0332;
     
