@@ -7,7 +7,6 @@
 .header {
     max-width: 1440px;
     height: 1024px;
-
     background-image: url("img/Rectangle 1.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -15,17 +14,16 @@
 }
 
 .block {
-    margin-left: 120px;  
+    margin-left: 120px;
 }
 
-.block__text{
+.block__text {
 
     width: 788.778px;
     color: #FFF;
     font-family: "Montserrat";
     font-size: 55px;
     font-weight: 700;
-    
     padding-top: 217px;
     padding-bottom: 32px;
 }
@@ -48,13 +46,27 @@
 .block__special-text {
     height: 64px;
     width: 481px;
-    
 }
+.selected-text{
+    color: #FFF;
+    font-family:"Montserrat";
+    font-size: 18px;
+   
+    font-weight: 100;
+    line-height: 32px;
+    }
 
+    .selected-text__big-words{
+        color: #FFF;
+font-family:"Montserrat";
+font-size: 18px;
+
+font-weight: 700;
+line-height: 32px;
+    } 
 
 .block__button {
     border-radius: 20px;
-    
     width: 234.063px;
     height: 48.603px;
     border-radius: 30px;
@@ -65,11 +77,13 @@
     color: #FFF;
     font-family: "Montserrat";
 }
+
 .block__button:hover {
     background: #fbfbfb;
     color: #9C0332;
-    
+
 }
+
 .blok-images {
     max-width: 1440px;
     height: 556px;
@@ -88,14 +102,17 @@
     gap: 32px;
     padding-left: 120px;
 }
-.game{
+
+.game {
     height: 300px;
 }
-    .game:hover{
+
+.game:hover {
     border-radius: 16px;
     border: 3px solid #44D2FF;
-    
+
 }
+
 .game__text {
     color: #FFF;
     position: relative;
@@ -107,6 +124,3 @@
     font-family: "Montserrat";
     text-decoration: none;
 }
-
-
-
