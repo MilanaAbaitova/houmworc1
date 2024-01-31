@@ -9,8 +9,8 @@ const iPhone = "2007";
 alert(iPhone);
 
 // задание 3
-const user = `EichBrendan`;
-alert(user);
+const User = `EichBrendan`;
+alert(User);
 
 // задание 4 
 let x = 10;
@@ -21,14 +21,14 @@ alert(x * y);
 alert(x / y);
 
 // задание 5
-let b = 2;
-result = b ** 5;
+let B = 2;
+result = B ** 5;
 alert(`2 в 5-й степени = ${result}`);
  
 //  задание 6
-let a = 9;
+let A = 9;
 let b = 2;
-result = a % b;
+result = A / b;
 alert(`Остаток = ${result}`);
 
 //  задание 7
@@ -42,7 +42,7 @@ num--;
 alert(num);
 
 //   задание 8
-let age = prompt(`сколько вам лет`);
+let age = prompt(`сколько вам лет ?`);
 alert(age);
 
 //    задание 9
@@ -62,9 +62,9 @@ user.age = 43;
 delete user[`city of residence`];
 
 //    задание 9.4
-let info = prompt("что вы хотите узнать о пользователе", "name");
+let info = prompt(`что вы хотите узнать о пользователе`, `name`);
 alert(user[info]);
 
 // задание 10
 let yourName = prompt(`Как вас зовут?`);
-alert(`Привет,${yourName}!`);
+alert(`Привет,..${yourName}!`);
