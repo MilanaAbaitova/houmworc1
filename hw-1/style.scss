@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.center {
+    
+
+    padding-inline: max(50% - 600px, 16px);
+}
+
+.header {
+    max-width: 1440px;
+    height: 1024px;
+    background-image: url("img/Rectangle 1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block {
+    padding-inline: max(50% - 600px, 16px);  
+}
+
+.block__text {
+
+    width: 788.778px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 55px;
+    font-weight: 700;
+    padding-top: 217px;
+    padding-bottom: 32px;
+}
+
+.block__big-text {
+    color: white;
+    display: flex;
+    width: 747px;
+    height: 125.007px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.block__special-text {
+    height: 64px;
+    width: 481px;
+}
+
+.selected-text {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.selected-text__big-words {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.block__button {
+    border-radius: 20px;
+    width: 234.063px;
+    height: 48.603px;
+    border-radius: 30px;
+    background: #9C0332;
+    border: 1px solid #9C0332;
+    margin-top: 44px;
+    font-size: 18px;
+    color: #FFF;
+    font-family: "Montserrat";
+}
+
+.block__button:hover {
+    background: #fbfbfb;
+    color: #9C0332;
+
+}
+
+.blok-images {
+    max-width: 1440px;
+    background-image: url("img/Rectangle 5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -2px;
+}
+
+.games {
+    padding-top: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-left: 120px;
+    padding-bottom: 128px;
+}
+
+.game {
+    height: 300px;
+}
+
+.game:hover {
+    border-radius: 16px;
+    border: 3px solid #44D2FF;
+
+}
+
+.game__text {
+    color: #FFF;
+    position: relative;
+    bottom: 64px;
+    padding-left: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+
+
+
+@import "tablet";
+@import "mobile";
