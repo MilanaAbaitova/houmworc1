@@ -1,6 +1,6 @@
 // Задание-1
-let password = (prompt('Введите пароль'));
-let chek;
+let password = prompt('Введите пароль');
+
 if (password === 'Пароль') {
     chek = 'Пароль введен верно';
 } else {
@@ -45,7 +45,7 @@ switch (monthNumber) {
     case '5':
         console.log('Весна');
         break;
-    case `6`:
+    case '6':
     case '7':
     case '8':
         console.log('Лето');
