@@ -1,5 +1,4 @@
 // Задание 1
-
 let hi = 0;
 while (hi < 2) {
     console.log('Привет !');
@@ -7,7 +6,6 @@ while (hi < 2) {
 }
 
 // Задание 2
-
 let number = 1;
 while (number <= 5) {
     console.log(number);
@@ -15,7 +13,6 @@ while (number <= 5) {
 }
 
 // Задание 3
-
 let Number = 7;
 while (Number <= 22) {
     console.log(Number);
@@ -24,7 +21,6 @@ while (Number <= 22) {
 }
 
 // Задание 4
-
 const obj = {
     'Коля': 200,
     'Вася': 300,
@@ -36,7 +32,6 @@ for (let key in obj) {
 }
 
 // Задание 5
-
 let n = 1000;
 let num = 0;
 while (n >= 50) {

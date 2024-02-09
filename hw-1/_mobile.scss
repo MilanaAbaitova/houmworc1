@@ -7,7 +7,7 @@
     }
 
     .header {
-        width: 620px;
+        width: 375px;
         height: 735px;
 
     }
@@ -37,7 +37,7 @@
     .block__special-text {
         width: 343px;
         height: 66px;
-         font-family: Montserrat;
+         font-family: "Montserrat";
         font-size: 14px;
         font-weight: 700;
         line-height: 22px;
@@ -97,5 +97,52 @@
         width: 343px;
 
     }
+    .block-inside {
+        max-width: 375px;
+        position: relative;
+    
+    gap: 64px;
+    } 
+    .block-inside__info {
+        width: 343px;
+height: 217.6px;
+display: flex;
+    align-items: center;
+    padding-left: 16px;
+
+
+    }
+    .block-inside__title {
+        font-family:"Montserrat";
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+text-align: center;
+
+    }
+    .block-inside__offer{
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        
+        text-align: center;
+          
+    }
+    .block-inside__button-two{
+    }
+
+    .block-inside__img-game {
+        background-image: url("img/mini.png");
+        width: 375px;
+        height: 333px;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        
+    }
+   
+
+    
 
 }
