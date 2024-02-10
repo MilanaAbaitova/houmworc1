@@ -7,14 +7,14 @@
     }
 
     .header {
-        width: 375px;
+       
         height: 735px;
 
     }
 
     .block {
         width: 343px;
-        height: 257.61px;
+        // height: 257.61px;
         top: 238.69px;
         left: 16px;
         border-radius: 30px;
@@ -90,7 +90,7 @@
     }
 
     .blok-images {
-        max-width: 375px;
+        
     }
 
     .img {
@@ -138,10 +138,13 @@ text-align: center;
         height: 333px;
         background-repeat: no-repeat;
         background-position: center;
-       
+        padding-left: 16px;
         
     }
-   
+    .bottom-block{
+        max-width: 375px;
+        height: 653px;
+    }
 
     
 

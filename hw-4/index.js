@@ -16,10 +16,10 @@ while (number <= 5) {
 
 // Задание 3
 
-let Number = 7;
-while (Number <= 22) {
-    console.log(Number);
-    Number++
+let numbers = 7;
+while (numbers <= 22) {
+    console.log(numbers);
+    numbers++
 
 }
 
