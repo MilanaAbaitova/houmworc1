@@ -7,145 +7,136 @@
     }
 
     .header {
-       
+
         height: 735px;
 
     }
 
     .block {
         width: 343px;
-        // height: 257.61px;
         top: 238.69px;
         left: 16px;
         border-radius: 30px;
+
+        &__text {
+            font-family: "Montserrat";
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            text-align: center;
+            width: 343px;
+            height: 77.44px;
+            padding-top: 238.69px;
+            left: 16px;
+
+
+        }
+
+        &__special-text {
+            width: 343px;
+            height: 66px;
+            font-family: "Montserrat";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__button {
+            width: 234.06px;
+            height: 48.6px;
+            top: 447.7px;
+            left: 70.47px;
+            border-radius: 30px;
+            margin-left: 50px;
+
+        }
+
+        &__big-text {
+            font-family: "Montserrat";
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            text-align: center;
+            width: 343px;
+            height: 77.44px;
+            top: 238.69px;
+            left: 16px;
+
+        }
     }
+        .selected-text {
 
-    .block__text {
-        font-family: "Montserrat";
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 39px;
-        text-align: center;
-        width: 343px;
-        height: 77.44px;
-        padding-top: 238.69px;
-        left: 16px;
+            font-family: "Montserrat";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+
+
+        }
+
+        .game {
+            width: 343px;
+            height: 300px;
+
+        }
+
+        .games {
+            padding-right: 16px;
+            padding-left: 16px;
+        }
+
+        .img {
+            width: 343px;
+
+        }
+
+        .block-inside {
+            max-width: 373px;
+            position: relative;
+            gap: 64px;
+        &__info {
+            width: 343px;
+            height: 217.6px;
+            display: flex;
+            align-items: center;
+            padding-left: 16px;
+
+
+        }
+
+        &__title {
+            font-family: "Montserrat";
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            text-align: center;
+
+        }
+
+       &__offer {
+            font-family: "Montserrat";
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+
+        }
+
+        &__img-game {
+            background-image: url("img/mini.png");
+            width: 344px;
+            height: 333px;
+            background-repeat: no-repeat;
+           padding-left: 33px;
+        }
+    }
+        .bottom-block {
+
+            height: 653px;
+        }
+
 
 
     }
-
-    .block__special-text {
-        width: 343px;
-        height: 66px;
-         font-family: "Montserrat";
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 22px;
-        letter-spacing: 0px;
-        text-align: center;
-    }
-
-    .block__button {
-        width: 234.06px;
-        height: 48.6px;
-        top: 447.7px;
-        left: 70.47px;
-        border-radius: 30px;
-        margin-left: 50px;
-
-    }
-
-    .block__big-text {
-        font-family: "Montserrat";
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 39px;
-        text-align: center;
-        width: 343px;
-        height: 77.44px;
-        top: 238.69px;
-        left: 16px;
-
-    }
-
-    .selected-text {
-       
-        font-family: "Montserrat";
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 22px;
-        
-
-    }
-
-    .game {
-        width: 343px;
-        height: 300px;
-
-    }
-
-    .games {
-        padding-bottom: 127px;
-        padding-left: 16px;
-    }
-
-    .blok-images {
-        
-    }
-
-    .img {
-        width: 343px;
-
-    }
-    .block-inside {
-        max-width: 375px;
-        position: relative;
-    
-    gap: 64px;
-    } 
-    .block-inside__info {
-        width: 343px;
-height: 217.6px;
-display: flex;
-    align-items: center;
-    padding-left: 16px;
-
-
-    }
-    .block-inside__title {
-        font-family:"Montserrat";
-font-size: 32px;
-font-weight: 700;
-line-height: 39px;
-text-align: center;
-
-    }
-    .block-inside__offer{
-        font-family: "Montserrat";
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 22px;
-        
-        text-align: center;
-          
-    }
-    .block-inside__button-two{
-    }
-
-    .block-inside__img-game {
-        background-image: url("img/mini.png");
-        width: 375px;
-        height: 333px;
-        background-repeat: no-repeat;
-        background-position: center;
-        padding-left: 16px;
-        
-    }
-    .bottom-block{
-        max-width: 375px;
-        height: 653px;
-    }
-
-    
-
-}

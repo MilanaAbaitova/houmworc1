@@ -5,15 +5,10 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  height: 2610px;
-}
-
-.center {
-  padding-inline: max(50% - 600px, 16px);
+  height: 2380px;
 }
 
 .header {
-  max-width: 1440px;
   height: 1024px;
   background-image: url("img/Rectangle 1.jpg");
   background-repeat: no-repeat;
@@ -21,6 +16,9 @@ body {
   background-size: cover;
 }
 
+.block {
+  padding-left: 120px;
+}
 .block__text {
   color: #FFF;
   font-family: "Montserrat";
@@ -29,7 +27,6 @@ body {
   padding-top: 217px;
   padding-bottom: 32px;
 }
-
 .block__big-text {
   color: white;
   display: flex;
@@ -82,7 +79,6 @@ body {
 }
 
 .blok-images {
-  max-width: 1440px;
   background-image: url("img/Rectangle 5.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -122,7 +118,6 @@ body {
 }
 
 .bottom-block {
-  max-width: 1440px;
   height: 800px;
   background: #000915;
   position: relative;
@@ -132,6 +127,7 @@ body {
 .block-inside {
   display: flex;
   gap: 135px;
+  padding-top: 235px;
 }
 .block-inside__info {
   width: 584px;
@@ -186,12 +182,25 @@ body {
 
 @media (max-width: 1024px) {
   .center {
-    padding-left: calc(50% - 393px);
-    padding-right: calc(50% - 393px);
+    padding-inline: max(50% - 375px, 54px);
   }
   .block-inside {
     display: flex;
     flex-direction: column;
+  }
+  .block-inside__info {
+    padding-left: 54px;
+  }
+  .block-inside__img-game {
+    padding-left: 120px;
+  }
+  .games {
+    padding-left: 54px;
+  }
+  .block-inside {
+    display: flex;
+    gap: 86px;
+    padding-top: 0px;
   }
 }
 @media (max-width: 767px) {
@@ -259,14 +268,14 @@ body {
     height: 300px;
   }
   .games {
-    padding-bottom: 127px;
+    padding-right: 16px;
     padding-left: 16px;
   }
   .img {
     width: 343px;
   }
   .block-inside {
-    max-width: 375px;
+    max-width: 373px;
     position: relative;
     gap: 64px;
   }
@@ -293,14 +302,12 @@ body {
   }
   .block-inside__img-game {
     background-image: url("img/mini.png");
-    width: 375px;
+    width: 344px;
     height: 333px;
     background-repeat: no-repeat;
-    background-position: center;
-    padding-left: 16px;
+    padding-left: 33px;
   }
   .bottom-block {
-    max-width: 375px;
     height: 653px;
   }
 }/*# sourceMappingURL=style.css.map */
