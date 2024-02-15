@@ -9,8 +9,8 @@ body {
 
 .header {
   height: 1024px;
-background-image: url("img/Rectangle 1.png");
- background-repeat: no-repeat;
+  background-image: url("img/Rectangle 1.png");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -64,9 +64,9 @@ background-image: url("img/Rectangle 1.png");
   width: 234.063px;
   height: 48.603px;
   border-radius: 30px;
-background: #8e022c;
+  background: #8e022c;
   border: 1px solid #90032d;
-background: #9C0332;
+  background: #9C0332;
   border: 1px solid #9C0332;
   margin-top: 44px;
   font-size: 18px;
@@ -86,8 +86,6 @@ background: #9C0332;
   background-size: cover;
   position: relative;
   top: -3px;
-
-
 }
 
 .games {
@@ -124,8 +122,7 @@ background: #9C0332;
   height: 800px;
   background: #000915;
   position: relative;
-top: -4px;
-
+  top: -4px;
 }
 
 .block-inside {
@@ -177,7 +174,6 @@ top: -4px;
 }
 
 .block-inside__img-game {
-
   background-image: url("img/nb-big.png");
   width: 485px;
   height: 333px;
