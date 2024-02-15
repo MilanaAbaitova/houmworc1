@@ -10,7 +10,11 @@ body {
 
 .header {
     height: 1024px;
+<<<<<<< HEAD
     background-image: url("img/Rectangle 1.png");
+=======
+    background-image: url("img/Rectangle 1.jpg");
+>>>>>>> 83222e3fcc2b0bd720395462211cbf0bf46aeab4
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -47,6 +51,10 @@ body {
 
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 83222e3fcc2b0bd720395462211cbf0bf46aeab4
 .selected-text {
     color: #FFF;
     font-family: "Montserrat";
@@ -68,8 +76,13 @@ body {
     width: 234.063px;
     height: 48.603px;
     border-radius: 30px;
+<<<<<<< HEAD
     background: #8e022c;
     border: 1px solid #90032d;
+=======
+    background: #9C0332;
+    border: 1px solid #9C0332;
+>>>>>>> 83222e3fcc2b0bd720395462211cbf0bf46aeab4
     margin-top: 44px;
     font-size: 18px;
     color: #FFF;
@@ -88,7 +101,11 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+<<<<<<< HEAD
     top: -3px;
+=======
+    top: -2px;
+>>>>>>> 83222e3fcc2b0bd720395462211cbf0bf46aeab4
 }
 
 .games {
@@ -126,7 +143,11 @@ body {
     height: 800px;
     background: #000915;
     position: relative;
+<<<<<<< HEAD
     top: -4px;
+=======
+    top: -3px;
+>>>>>>> 83222e3fcc2b0bd720395462211cbf0bf46aeab4
 }
 
 .block-inside {
@@ -137,14 +158,26 @@ body {
 
     &__info {
         width: 584px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 83222e3fcc2b0bd720395462211cbf0bf46aeab4
         padding-left: 120px;
         display: flex;
         flex-direction: column;
         gap: 32px;
     }
 
+<<<<<<< HEAD
     &__title {
         width: 375px;
+=======
+
+
+    &__title {
+        width: 375px;
+
+>>>>>>> 83222e3fcc2b0bd720395462211cbf0bf46aeab4
         color: #FFFFFF;
         font-family: Montserrat;
         font-size: 48px;
@@ -187,7 +220,11 @@ body {
 }
 
 .block-inside__img-game {
+<<<<<<< HEAD
     background-image: url("img/nb-big.png");
+=======
+    background-image: url("img/game.png");
+>>>>>>> 83222e3fcc2b0bd720395462211cbf0bf46aeab4
     width: 485px;
     height: 333px;
     background-repeat: no-repeat;
