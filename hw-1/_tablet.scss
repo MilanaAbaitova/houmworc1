@@ -1,0 +1,30 @@
+@media(max-width:1024px) {
+
+    .center {
+        padding-inline: max(50% - 375px, 54px);
+    }
+
+
+    .block-inside {
+        display: flex;
+        flex-direction: column;
+
+        &__info {
+            padding-left: 54px;
+        }
+
+        &__img-game {
+            padding-left: 120px;
+        }
+    }
+
+    .games {
+        padding-left: 54px;
+    }
+
+    .block-inside {
+        display: flex;
+        gap: 86px; 
+        padding-top: 0px;
+    }
+}
