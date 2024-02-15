@@ -5,8 +5,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-}
 
+}
 
 .header {
     height: 1024px;
@@ -40,11 +40,12 @@ body {
         font-weight: 700;
     }
 }
-    .block__special-text {
-        height: 64px;
-        width: 481px;
-       
-    }
+
+.block__special-text {
+    height: 64px;
+    width: 481px;
+
+}
 
 
 .selected-text {
@@ -198,11 +199,6 @@ body {
     background-position: center;
 
 }
-
-
-
-
-
 
 @import "tablet";
 @import "mobile";
