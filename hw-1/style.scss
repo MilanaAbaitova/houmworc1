@@ -5,20 +5,10 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    
-   
-    
-    
 }
 
-.center {
-
-
-    padding-inline: max(50% - 600px, 16px);
-}
 
 .header {
-    max-width: 1440px;
     height: 1024px;
     background-image: url("img/Rectangle 1.jpg");
     background-repeat: no-repeat;
@@ -27,37 +17,35 @@ body {
 }
 
 .block {
-    padding-inline: max(50% - 600px, 16px);
-}
+    padding-left: 120px;
 
-.block__text {
+    &__text {
+        color: #FFF;
+        font-family: "Montserrat";
+        font-size: 55px;
+        font-weight: 700;
+        padding-top: 217px;
+        padding-bottom: 32px;
+    }
 
-    width: 788.778px;
-    color: #FFF;
-    font-family: "Montserrat";
-    font-size: 55px;
-    font-weight: 700;
-    padding-top: 217px;
-    padding-bottom: 32px;
+    &__big-text {
+        color: white;
+        display: flex;
+        height: 125.007px;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Montserrat";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+    }
 }
+    .block__special-text {
+        height: 64px;
+        width: 481px;
+       
+    }
 
-.block__big-text {
-    color: white;
-    display: flex;
-    width: 747px;
-    height: 125.007px;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "Montserrat";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.block__special-text {
-    height: 64px;
-    width: 481px;
-}
 
 .selected-text {
     color: #FFF;
@@ -95,7 +83,6 @@ body {
 }
 
 .blok-images {
-    max-width: 1440px;
     background-image: url("img/Rectangle 5.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -136,21 +123,21 @@ body {
 }
 
 .bottom-block {
-     height: 800px;
+    height: 800px;
     background: #000915;
     position: relative;
     top: -3px;
 }
 
 .block-inside {
-   display: flex;
-   gap: 135px;
-   
+    display: flex;
+    gap: 135px;
+    padding-top: 235px;
 
 
     &__info {
         width: 584px;
-        height: 235.6px;
+
         padding-left: 120px;
         display: flex;
         flex-direction: column;
@@ -160,8 +147,8 @@ body {
 
 
     &__title {
-        width: 377px;
-        height: 59px;
+        width: 375px;
+
         color: #FFFFFF;
         font-family: Montserrat;
         font-size: 48px;
