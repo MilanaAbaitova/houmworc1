@@ -1,4 +1,3 @@
-
 function monthNum() {
     let month = (prompt("Введите номер месяца"));
     if ((month >= 1 && month <= 2) || month === 12) {
