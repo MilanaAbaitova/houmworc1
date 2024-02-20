@@ -95,8 +95,8 @@ console.log(circle2.getirclelePerimeter());
 
 // Задание 8
 
-function date(month) {
-    let month = Number(prompt(`Введите номер месяца`));
+function monthNum() {
+    let month = (prompt("Введите номер месяца"));
     if ((month >= 1 && month <= 2) || month === 12) {
         return `Зима`;
     } else if (month >= 3 && month <= 5) {
@@ -109,4 +109,4 @@ function date(month) {
         return ` Такого месяца нет`;
     }
 }
-console.log(date(month));
+console.log(monthNum);
