@@ -1,6 +1,8 @@
 
 function monthNum() {
-    let month = (prompt("Введите номер месяца"));
+
+    let month = prompt(`Введите номер месяца`);
+
     if ((month >= 1 && month <= 2) || month === 12) {
         alert("Зима");
     } else if (month >= 3 && month <= 5) {
@@ -12,4 +14,8 @@ function monthNum() {
     } else {
         alert("Такого месяца нет");
     }
+
 }
+
+
+
