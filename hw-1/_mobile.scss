@@ -13,10 +13,11 @@
     }
 
     .block {
-        width: 343px;
-        border-radius: 30px;
         margin-left: auto;
         margin-right: auto;
+        width: 343px;
+        border-radius: 30px;
+        
 
         &__text {
             font-family: "Montserrat";
@@ -139,7 +140,5 @@
 
         height: 653px;
     }
-
-
 
 }
