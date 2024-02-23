@@ -1,56 +1,54 @@
 ﻿// Задание 1
 
-function refundNumber(a,b) {
+function refundNumber(a, b) {
     if (a < b) {
-        return(a);
+        return a;
     } else {
-        Return(b);
+        return b;
     }
-
+}
 // Задание 2
 
 function parity(n) {
     if (n % 2 == 0) {
-        return'Четное число';
+        return 'Четное число';
     } else {
-        return'Число не четное';
+        return 'Число не четное';
     }
 }
 
 // Задание 3
 
 function squareNumber(a) {
-        console.log(a**2);
+    console.log(a ** 2);
 }
 function squareNumber(a) {
-        return (a**2);
+    return (a ** 2);
 }
 
 // Задание 4
 
-let Age = prompt("Сколько тебе лет');
-function askAge(Age) {
-    if (Age < 0) {
+let age = prompt(`Сколько тебе лет`);
+function askAge(age) {
+    if (age < 0) {
         return 'Вы ввели неправильное значение';
-    } else if (Age >= 0 && Age <= 12) {
+    } else if (age >= 0 && age <= 12) {
         return 'Привет, друг!';
     } else {
         return 'Добро пожаловать!';
     }
 }
-alert(askAge(Age));
+alert(askAge(age));
 
 // Задание 5
 
-function trueNum(a,b) 
-    
-
-    if (isNan(a)|| isNan(b)) {
-        return 'Одно или оба значения не являются числом';
-    } else {
-        return a * b;
-    }
-
+function trueNum(a, b){
+if (isNan(a) || isNan(b)) {
+    return 'Одно или оба значения не являются числом';
+} else {
+    return a * b;
+}
+}
 
 // Задание 6
 
@@ -60,7 +58,7 @@ function comback() {
 
     if (!isNaN(numberFirst)) {
         const сube = numberFirst ** 3;
-        console.log(`n в кубе равняется ${сube}`);
+        return `n в кубе равняется ${сube}`;
 
     } else {
         console.log('Переданный параметр не являются числом');
