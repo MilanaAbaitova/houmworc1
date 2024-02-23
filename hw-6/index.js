@@ -11,12 +11,12 @@ for (let i = 0; i < arrNumber.length; i++) {
 //Задание-2
 
 const arrNumber1 = [1, 5, 4, 10, 0, 3];
-console.log([1, 5, 4, 10, 0, 3].indexOf(4));
+console.log([arrNumber1].indexOf(4));
 
 // Задание-3
 
 const arrNumber2 = [1, 3, 5, 10, 20];
-console.log(arrNumber2.join(` `));
+console.log(arrNumber2.join(" "));
 
 //Задание-4
 
@@ -26,19 +26,19 @@ for (let i = 0; i < 3; i++) {
     for (let j = 0; j < 3; j++) {
         inArr.push(1);
     }
-    arr.push(inArr);
+    arrNumber3.push(inArr);
 }
 console.log(arrNumber3)
 
 // Задание-5
 
 let arrNumber4 = [1, 1, 1];
-arrNumber3.push(2, 2, 2);
+arrNumber4.push(2, 2, 2);
 console.log(arrNumber4);
 
 // Задание-6
 
-let arr = [9, 8, 7, `a`, 6, 5].sort()
+let arr = [9, 8, 7, `a`, 6, 5];
 let resultArr = arr.sort();
 console.log(resultArr.pop());
 console.log(resultArr);
@@ -56,7 +56,7 @@ if (arrNumber5.includes(Number(reguestNumber))) {
 //Задание-8
 
 let str = `abcdef`;
-let arrStr = str.split(` `).reverse().join(` `);
+let arrStr = str.split(" ").reverse().join(" ");
 console.log(arrStr);
 
 // Задание-9
@@ -86,10 +86,10 @@ function inArr2(array) {
 
 // Задание-13
 
-function filterPositiv(array){
-    return array.filter(value=> value<0);
+function filterPositiv(array) {
+    return array.filter(value => value < 0);
 }
-    console.log(filterPositiv([-1,0,5,-10,56]))
-    console.log(filterPositiv([-25,25,0,-1000,-2]))
+console.log(filterPositiv([-1, 0, 5, -10, 56]))
+console.log(filterPositiv([-25, 25, 0, -1000, -2]))
 
 
