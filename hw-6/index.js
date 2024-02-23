@@ -4,7 +4,7 @@
 const arrNumber = [1, 5, 4, 10, 3];
 for (let i = 0; i < arrNumber.length; i++) {
     console.log(arrNumber[i]);
-    if (arrNumber[i] == 10) {
+    if (arrNumber[i] === 10) {
         break;
     }
 }
