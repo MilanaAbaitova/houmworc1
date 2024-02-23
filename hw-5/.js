@@ -10,7 +10,7 @@ function refundNumber(a, b) {
 // Задание 2
 
 function parity(n) {
-    if (n % 2 == 0) {
+    if (n % 2 === 0) {
         return 'Четное число';
     } else {
         return 'Число не четное';
