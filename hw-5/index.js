@@ -33,6 +33,7 @@ function square(e) {
 }
 
 //Задание 4
+
 let age = prompt('Сколько тебе лет');
 function ascAge(age) {
     if (age < 0) {
@@ -54,27 +55,25 @@ function inNamber(a, b) {
     } else {
         return a * b;
     }
-
+ 
 }
 
 //Задание 6
 
 function backNumber() {
-
     let numberFirst = prompt('Enter number');
-
     if (!isNaN(numberFirst)) {
         const numberInCube = numberFirst ** 3;
-        console.log(`n в кубе равняется ${numberInCube}`);
-
+        return `n в кубе равняется ${numberInCube}`;
     } else {
-        console.log('Переданный параметр не являются числом');
+        return `Переданный параметр не являются числом`;
     }
 }
 
 backNumber();
 
 //Задание 7
+
 function getArea() {
     return Math.PI * this.radius ** 2;
 }
@@ -97,18 +96,18 @@ console.log(circle1.getirclelePerimeter());
 console.log(circle2.getCircleleArea());
 console.log(circle2.getirclelePerimeter());
 
-
+//Задание 8
 
 function monthNum() {
 
     let month = prompt(`Введите номер месяца`);
 
     if ((month >= 1 && month <= 2) || month === 12) {
-        return"Зима";
+        return "Зима";
     } else if (month >= 3 && month <= 5) {
-        return"Весна";
+        return "Весна";
     } else if (month >= 6 && month <= 8) {
-        return"Лето";
+        return "Лето";
     } else if (month >= 9 && month <= 11) {
         return "Осень";
     } else {
