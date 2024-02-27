@@ -5,13 +5,12 @@ console.log(mstr.toUpperCase());
 
 // Задание 2
 
-function filterString(array, startStr) {
-    return array.filter((item) =>
-        item.toLowerCase().startWith(startStr.toLowerCase())
-    );
-}
-const strArr = (String) => String.map(d => d.length);
-console.log(toUpperCase(String));
+function searchStart(arr, str) {
+    return arr.filter(el => el.toLowerCase().startsWith(str.toLowerCase()));
+  }
+  console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'));
+  console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко')); 
+  console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино'));
 
 // Задание 3
 
@@ -31,6 +30,7 @@ function randNumber() {
 randNumber();
 
 // Задание 6
+
 function getRandomInt(minValue, maxValue) {
 
     return Math.round(Math.random() * (maxValue - minValue)) + minValue;
