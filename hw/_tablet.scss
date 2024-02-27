@@ -8,6 +8,8 @@
     .block-inside {
         display: flex;
         flex-direction: column;
+        gap: 86px; 
+        padding-top: 0px;
 
         &__info {
             padding-left: 54px;
@@ -22,10 +24,20 @@
         padding-left: 54px;
     }
 
-    .block-inside {
+    .block-inside-futer {
         display: flex;
+        flex-direction: column;
         gap: 86px; 
         padding-top: 0px;
+  
     }
+.block-inside__info-futer{
+    padding-left: 54px;
+
+}
+.block-inside__img-game-futer{
+
+    padding-left: 120px;   
+}
 
 }

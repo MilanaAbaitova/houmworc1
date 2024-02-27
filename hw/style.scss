@@ -99,11 +99,14 @@ body {
     flex-wrap: wrap;
     gap: 32px;
     padding-left: 120px;
+    padding-right: 120px;
     padding-bottom: 128px;
 }
 
 .game {
     height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .game:hover {
@@ -132,11 +135,19 @@ body {
 
 }
 
+.bottom-block-two {
+    background: #000915;
+    position: relative;
+    top: -5px;
+
+}
+
 .block-inside {
     display: flex;
     gap: 135px;
     padding-top: 235px;
-
+    margin-left: auto;
+    margin-right: auto;
 
     &__info {
         width: 584px;
@@ -148,7 +159,6 @@ body {
 
 
     &__title {
-        width: 375px;
         color: #FFFFFF;
         font-family: Montserrat;
         font-size: 48px;
@@ -181,8 +191,19 @@ body {
         font-size: 18px;
         color: #FFF;
         font-family: "Montserrat";
-
     }
+
+}
+
+.block-inside-futer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 135px;
+    padding-top: 235px;
+    padding-bottom: 90px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .block-inside__button-two:hover {
@@ -197,6 +218,21 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+.block-inside__img-game-futer {
+    background-image: url("img/img futer.png");
+    width: 485px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.block-inside__info-futer {
+    width: 584px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 @import "tablet";

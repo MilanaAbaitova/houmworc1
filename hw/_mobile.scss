@@ -99,7 +99,7 @@
         gap: 64px;
 
         &__info {
-            width: 343px;
+            width: 326px;
             height: 217.6px;
             display: flex;
             align-items: center;
@@ -128,7 +128,7 @@
 
         &__img-game {
             background-image: url("img/nb.png");
-            width: 344px;
+            width: 323px;
             height: 333px;
             background-repeat: no-repeat;
             padding-left: 33px;
@@ -140,6 +140,24 @@
         height: 653px;
     }
 
+    .block-inside-futer{
+       max-width: 373px;
+        position: relative;
+        gap: 64px;   
+    }
+    .block-inside__img-game-futer{
+        background-image: url("img/gaim.mini.png");
+        width: 323px;
+        height: 333px;
+        background-repeat: no-repeat;
+        padding-left: 33px;  
+    }
+    .block-inside__info-futer{
+        width: 326px;
+        height: 217.6px;
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
 
-
+    }
 }
