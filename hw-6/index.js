@@ -86,10 +86,10 @@ function inArr2(array) {
 
 // Задание-13
 
-function filterPositiv(array){
-    return array.filter(value=> value<0);
+function filterPositiv(array) {
+    return array.filter(value => value < 0);
 }
-    console.log(filterPositiv([-1,0,5,-10,56]))
-    console.log(filterPositiv([-25,25,0,-1000,-2]))
+console.log(filterPositiv([-1, 0, 5, -10, 56]))
+console.log(filterPositiv([-25, 25, 0, -1000, -2]))
 
 
