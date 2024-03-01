@@ -93,9 +93,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  padding-bottom: 128px;
   padding-left: 120px;
   padding-right: 120px;
+  padding-bottom: 128px;
 }
 
 .game {
@@ -126,6 +126,12 @@ body {
   background: #000915;
   position: relative;
   top: -4px;
+}
+
+.bottom-block-two {
+  background: #000915;
+  position: relative;
+  top: -5px;
 }
 
 .block-inside {
@@ -172,6 +178,17 @@ body {
   font-family: "Montserrat";
 }
 
+.block-inside-futer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 135px;
+  padding-top: 235px;
+  padding-bottom: 90px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .block-inside__button-two:hover {
   background: #EB443F;
   color: #fef8fa;
@@ -185,6 +202,21 @@ body {
   background-position: center;
 }
 
+.block-inside__img-game-futer {
+  background-image: url("img/img futer.png");
+  width: 485px;
+  height: 333px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.block-inside__info-futer {
+  width: 584px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 @media (max-width: 1024px) {
   .center {
     padding-inline: max(50% - 375px, 54px);
@@ -192,6 +224,8 @@ body {
   .block-inside {
     display: flex;
     flex-direction: column;
+    gap: 86px;
+    padding-top: 0px;
   }
   .block-inside__info {
     padding-left: 54px;
@@ -202,10 +236,17 @@ body {
   .games {
     padding-left: 54px;
   }
-  .block-inside {
+  .block-inside-futer {
     display: flex;
+    flex-direction: column;
     gap: 86px;
     padding-top: 0px;
+  }
+  .block-inside__info-futer {
+    padding-left: 54px;
+  }
+  .block-inside__img-game-futer {
+    padding-left: 120px;
   }
 }
 @media (max-width: 767px) {
@@ -314,5 +355,24 @@ body {
   }
   .bottom-block {
     height: 653px;
+  }
+  .block-inside-futer {
+    max-width: 373px;
+    position: relative;
+    gap: 64px;
+  }
+  .block-inside__img-game-futer {
+    background-image: url("img/gaim.mini.png");
+    width: 323px;
+    height: 333px;
+    background-repeat: no-repeat;
+    padding-left: 33px;
+  }
+  .block-inside__info-futer {
+    width: 326px;
+    height: 217.6px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
